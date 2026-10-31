@@ -85,7 +85,7 @@ if uploaded is not None:
             fill_color='rgba(0, 150, 255, 0.20)', stroke_width=2,
             stroke_color='#0096ff', background_image=image,
             update_streamlit=True, height=image.height, width=image.width,
-            drawing_mode=mode, display_toolbar=True,
+            drawing_mode=mode,
             return_image_data=True, key=canvas_key,
         )
         st.subheader('2. Калибровка')
